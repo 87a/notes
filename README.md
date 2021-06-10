@@ -1,2 +1,1 @@
-# notes
-notes
+some notes for machine learning
