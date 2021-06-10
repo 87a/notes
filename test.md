@@ -1,13 +1,11 @@
-# Hello,world!
-## hi
-123
-
-456
-分割线
+markdown常用语法
+[TOC]
+# 分割线
 
 ---
 
 789
+# 加粗、斜体、删除、高亮
 **重点加粗**
 *斜体*
 ~~删除线~~
@@ -17,6 +15,7 @@
 > 加粗 ctrl + b
 > 斜体 ctrl + i
 
+# 列表
 * 无序列表
     * 嵌套无序列表
     * 嵌套无序列表
@@ -33,10 +32,12 @@
 - [ ] 未完成的事1
 - [ ] 未完成的事2
 
+# 缩进
 缩进快捷键  
 > ctrl + [ 
 > ctrl + ]
 
+# 行内代码
 这是`行内代码`的写法
 
 ```cpp
@@ -50,7 +51,7 @@ int c=a+b;
 printf("%d\n",c);
 return 0;
 ```
-
+# 超链接和图片
 [pixiv-むう](https://www.pixiv.net/users/5048314)
 ![zhihu](https://pic2.zhimg.com/80/v2-c35303b43639b37a18b8893e906d7435_720w.png)
 
@@ -60,27 +61,31 @@ return 0;
 
 ![use image paste](image/2021-06-09-20-54-13.png)
 
+# 表格
 | 表头 | 表头 |
 | ---- | ---- |
 | 内容 | 内容 |
 | 内容 | 内容 |
 
+#注释
+
 <!-- 注释 -->
 <!-- 多行
 注释 -->
 
-<!-- 注释、反注释快捷键 -->
+注释、反注释快捷键
 >ctrl + /
-
+# 公式
+## 上下标
 上标 $x^2+y^{2}=1$
 下标 $x_2+y_{2}=1$
-
+## 分式
 分数$\frac{1}{2}$
 展示型分式$\displaystyle\frac{x-1}{x+1}$
-
+## 开方
 开平方$\sqrt(2)$
 开n次方$\sqrt[n]{2}$
-
+## 空格
 紧贴 $a\!b$
 无空格 $ab$
 小空格 $a\,b$
@@ -88,20 +93,27 @@ return 0;
 大空格 $a\ b$
 quad空格 $a\quad b$
 两个quad空格 $a\qquad b$
+## 累加、累乘、积分
+### 累加 
+$sum_{k=1}^n\frac{1}{k}\quad \displaystyle\sum_{k=1}^n\frac{1}{k}$
 
-累加 $sum_{k=1}^n\frac{1}{k}\quad \displaystyle\sum_{k=1}^n\frac{1}{k}$
+### 累乘 
+$\prod_{k=1}^n\frac{1}{k}\quad \displaystyle\prod_{k=1}^n\frac{1}{k}$
 
-累乘 $\prod_{k=1}^n\frac{1}{k}\quad \displaystyle\prod_{k=1}^n\frac{1}{k}$
-
-积分 $\displaystyle \int_0^1x{\rm dx}\quad \displaystyle\iint_{D_{xy}}\quad \displaystyle\iiint_{\Omega_{xyz}}$
-
-圆括号 $\displaystyle \left(\sum_{k=1}^n\frac{1}{k}\right)$
-方括号 $\displaystyle \left[\sum_{k=1}^n\frac{1}{k}\right]$
-花括号 $\displaystyle \left\{\sum_{k=1}^n\frac{1}{k}\right\}$
+### 积分 
+$\displaystyle \int_0^1x{\rm dx}\quad \displaystyle\iint_{D_{xy}}\quad \displaystyle\iiint_{\Omega_{xyz}}$
+## 括号
+### 圆括号 
+$\displaystyle \left(\sum_{k=1}^n\frac{1}{k}\right)$
+### 方括号 
+$\displaystyle \left[\sum_{k=1}^n\frac{1}{k}\right]$
+### 花括号 
+$\displaystyle \left\{\sum_{k=1}^n\frac{1}{k}\right\}$
 <!-- 花括号需多加\ -->
-尖括号 $\displaystyle \left\langle\sum_{k=1}^n\frac{1}{k}\right\rangle$
-
-居中
+### 尖括号 
+$\displaystyle \left\langle\sum_{k=1}^n\frac{1}{k}\right\rangle$
+## 多行对齐
+### 居中
 $$
 \begin{aligned}
 y&=(x+5)^2-(x+1)^2 \\
@@ -110,7 +122,7 @@ y&=(x+5)^2-(x+1)^2 \\
 \end{aligned}
 $$
 
-左对齐
+### 左对齐
 $
 \begin{aligned}
 y&=(x+5)^2-(x+1)^2 \\
@@ -118,8 +130,7 @@ y&=(x+5)^2-(x+1)^2 \\
 &=8x+24 \\
 \end{aligned}
 $
-
-方程组
+## 方程组
 $$
 \begin{cases}
 k_{11}x_1+k_{12}x_2+\cdots+k_{1n}x_n=b_1 \\
@@ -128,8 +139,8 @@ k_{21}x_1+k_{22}x_2+\cdots+k_{2n}x_n=b_2 \\
 k_{n1}x_1+k_{n2}x_2+\cdots+k_{nn}x_n=b_n \\
 \end{cases}
 $$
-
-圆角矩阵
+## 矩阵
+### 圆角矩阵
 $$
 \begin{pmatrix}
 1&1&\cdots&1\\
@@ -139,7 +150,7 @@ $$
 \end{pmatrix}
 $$
 
-方角矩阵
+### 方角矩阵
 $$
 \begin{bmatrix}
 1&1&\cdots&1\\
@@ -148,8 +159,7 @@ $$
 1 & 1 & \cdots & 1 \\
 \end{bmatrix}
 $$
-
-行列式
+## 行列式
 $$
 \begin{vmatrix}
 1&1&\cdots&1\\
@@ -159,10 +169,10 @@ $$
 \end{vmatrix}
 $$
 
-特殊字符
+## 特殊字符
 ![特殊字符](https://pic2.zhimg.com/80/v2-842b02c54dd7d8e0571609414e79bdc1_720w.png)
 
-公式编号与引用
+## 公式编号与引用
 $$
 x+1 \tag{1-1}
 $$
@@ -175,7 +185,7 @@ $$
 
 由公式$(1-1)$
 
-零碎的重要语法
+## 零碎的重要语法
 点乘 $\cdot$, 叉乘 $\times$, 异或 $\otimes$, 直和 $\oplus$, 加减 $\pm$, 复合 $\circ$.
 小于等于 $\leq$, 大于等于 $\geq$, 不等 $\neq$, 恒等 $\equiv$, 约等 $\approx$, 等价 $\cong$, 相似 $\sim$, 相似等于 $\simeq$, 点等 $\doteq$.
 逻辑与 $\land$, 逻辑或 $\lor$, 逻辑非 $\lnot$, 蕴涵 $\to$, 等价 $\leftrightarrow$.
@@ -187,8 +197,8 @@ $$
 横省略 $\cdots$, 竖省略 $\vdots$, 斜省略 $\ddots$.
 常见函数 $\sin$, $\cos$, $\tan$, $\arcsin$, $\arccos$, $\arctan$, $\ln$, $\log$, $\exp$.
 
-VSCode 快捷键
-原生快捷键
+# VSCode 快捷键
+## 原生快捷键
 1. 通用操作
 `Ctrl + C`, 复制当前文本
 `Ctrl + V`, 粘贴当前文本
@@ -219,7 +229,7 @@ VSCode 快捷键
 `Alt + ↓` 向下移动当前行, 当多行文本被选中时, 将当前多行文本向下移动 (重要)
 
 
-插件增加的快捷键
+## 插件增加的快捷键
 1. Markdown 语法
 `Ctrl + B`当前有选中文本时, 将文本加粗
 `Ctrl + I`当前有选中文本时, 将文本变为斜体
@@ -244,4 +254,3 @@ VSCode 快捷键
 只要选择一段公式表达式文本，然后按下快捷键 `Ctrl ＋ Shift + E` 就看得出计算结果 需要python
 $\sin{\frac{\pi}{2}}$
 
-##
