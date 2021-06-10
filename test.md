@@ -177,11 +177,6 @@ $$
 x+1 \tag{1-1}
 $$
 
-$$
-\begin{equation}
-x^n+y^n=z^n
-\end{equation}
-$$
 
 由公式$(1-1)$
 
