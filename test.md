@@ -95,7 +95,7 @@ quad空格 $a\quad b$
 两个quad空格 $a\qquad b$
 ## 累加、累乘、积分
 ### 累加 
-$sum_{k=1}^n\frac{1}{k}\quad \displaystyle\sum_{k=1}^n\frac{1}{k}$
+$\sum_{k=1}^n\frac{1}{k}\quad \displaystyle\sum_{k=1}^n\frac{1}{k}$
 
 ### 累乘 
 $\prod_{k=1}^n\frac{1}{k}\quad \displaystyle\prod_{k=1}^n\frac{1}{k}$
